@@ -1,0 +1,24 @@
+{
+	"name": "pokedex",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tailwindcss -o ./dist/output.css --minify",
+		"dev": "npx tailwindcss -i ./src/assets/css/input.css -o ./dist/output.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/imarinho-dev/pokedex-js.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/imarinho-dev/pokedex-js/issues"
+	},
+	"homepage": "https://github.com/imarinho-dev/pokedex-js#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.2.1"
+	}
+}
